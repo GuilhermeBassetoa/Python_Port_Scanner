@@ -15,7 +15,4 @@ def scan_range(host: str, start: int, end: int, timeout: float = 1.0) -> list[in
             ports.append(i)
     return ports
 
-portas = scan_range("127.0.0.1", 7990, 8010)
-print(portas)
-
     
